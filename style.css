@@ -348,6 +348,10 @@ table td {
   border-radius: 50%;
 }
 
+.merchant-image:hover {
+  cursor: pointer;
+}
+
 .merchant-stories {
   margin-top: 50px;
   display: flex;
@@ -408,4 +412,76 @@ table td {
 .button:hover {
   color: white;
   background-color: blue;
+}
+
+/*merchant stories section styling ends here*/
+
+.recent-news-section {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.main-container-news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-container-news h1 {
+  font-size: 35px;
+}
+
+.container-news {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+.box {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  text-align: left;
+  width: 400px;
+  height: 350px;
+}
+
+.box h2 {
+  font-size: 20px;
+}
+
+.box p {
+  opacity: 0.7;
+}
+
+.box a {
+  margin-top: 40px;
+  color: blue;
+  text-decoration: none;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+.recent-news-button {
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 4px;
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+  width: 8%;
+}
+
+.recent-news-button:hover {
+  background-color: blue;
+  color: white;
+  cursor:pointer;
 }
